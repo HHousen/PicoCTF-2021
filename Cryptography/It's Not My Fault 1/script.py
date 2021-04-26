@@ -1,4 +1,5 @@
 import re
+import random
 import hashlib
 import gmpy2
 from gmpy2 import mpz

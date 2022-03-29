@@ -14,7 +14,7 @@
 
 3. The flag will now be shown, but it is encoded: `Gur synt vf cvpbPGS{c33xno00_1_f33_h_qrnqorrs}`
 
-4. We can decode the flag by passing it through ROT13 since this is a basic Caesar's cipher. You can decode ROT13 using [CyberChef (click for recipe with input)](https://gchq.github.io/CyberChef/#recipe=ROT13(true,true,false,13)&input=R3VyIHN5bnQgdmYgY3ZwYlBHU3tjMzN4bm8wMF8xX2YzM19oX3FybnFvcnJzfQ), for instance.
+4. We can decode the flag by passing it through ROT13 since this is a basic Caesar's cipher. You can decode ROT13 using [CyberChef](https://gchq.github.io/CyberChef/#recipe=ROT13(true,true,false,13)&input=R3VyIHN5bnQgdmYgY3ZwYlBHU3tjMzN4bm8wMF8xX2YzM19oX3FybnFvcnJzfQ), for instance.
 
 ### Flag
 

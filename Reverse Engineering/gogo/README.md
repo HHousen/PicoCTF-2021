@@ -114,7 +114,7 @@
     0x18449f60:     0x41    0x55    0x57    0x4b    0x45    0x50    0x46    0x01
     ```
 
-6. Now, we can XOR these two values to get the input because if `x ^ y = z` then `y ^ z = x`,  where `x` is the input (`$ecx`), `y` are the values that the input is XORed with (`$esp+0x4`), and `x` are the expected values (`$esp+0x24`). We can use [CyberChef (click for recipe)](https://gchq.github.io/CyberChef/#recipe=From_Hex('None')XOR(%7B'option':'Hex','string':'4a53475d414503545d025a0a5357450d05005d555410010e4155574b45504601'%7D,'Standard',true)&input=MzgzNjMxMzgzMzM2NjYzMTMzNjUzMzY0MzYzMjM3NjQ2NjYxMzMzNzM1NjI2NDYyMzgzMzM4MzkzMjMxMzQ2NQ) to compute the XOR between `3836313833366631336533643632376466613337356264623833383932313465` and `4a53475d414503545d025a0a5357450d05005d555410010e4155574b45504601` to get `reverseengineericanbarelyforward` as the output.
+6. Now, we can XOR these two values to get the input because if `x ^ y = z` then `y ^ z = x`,  where `x` is the input (`$ecx`), `y` are the values that the input is XORed with (`$esp+0x4`), and `x` are the expected values (`$esp+0x24`). We can use [CyberChef](https://gchq.github.io/CyberChef/#recipe=From_Hex('None')XOR(%7B'option':'Hex','string':'4a53475d414503545d025a0a5357450d05005d555410010e4155574b45504601'%7D,'Standard',true)&input=MzgzNjMxMzgzMzM2NjYzMTMzNjUzMzY0MzYzMjM3NjQ2NjYxMzMzNzM1NjI2NDYyMzgzMzM4MzkzMjMxMzQ2NQ) to compute the XOR between `3836313833366631336533643632376466613337356264623833383932313465` and `4a53475d414503545d025a0a5357450d05005d555410010e4155574b45504601` to get `reverseengineericanbarelyforward` as the output.
 
 7. Let's run the program normally with `./enter_password` and enter `reverseengineericanbarelyforward` for the password:
 
